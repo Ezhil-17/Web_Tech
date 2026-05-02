@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>EMPLOYEE DETAILS</h1>
+    <!-- table>tr*5>td*4 -->
+    <!-- cellspacing  == creating the space between two the cells-->
+    <!-- cellpadding==creating the space around the content -->
+    <table border="5" cellspacing="0px" cellpadding="20px">
+      <tr style="background-color: yellow">
+        <th>Emp.ID</th>
+        <th>Employee Name</th>
+        <th>Employee Role</th>
+        <th>Employee Salary</th>
+      </tr>
+      <tr>
+        <th>101</th>
+        <td>Sudharsan</td>
+        <td rowspan="2">FullStack Developer</td>
+        <td>1 Lakh</td>
+      </tr>
+      <tr>
+        <th>102</th>
+        <td>Yogesh</td>
+        <!-- <td>FullStack</td> -->
+        <td>2.5 Lakh</td>
+      </tr>
+      <tr>
+        <th>103</th>
+        <td>Sidh</td>
+        <td>Frontend Developer</td>
+        <td rowspan="2">4 Lakh</td>
+      </tr>
+      <tr>
+        <th>104</th>
+        <td>Sathya</td>
+        <td>Java Developer</td>
+        <!-- <td>4 Lakh</td> -->
+      </tr>
+      <tr>
+        <th colspan="3">Total Employee Working in Qspiders</th>
+        <th>4</th>
+      </tr>
+    </table>
+  </body>
+</html>
