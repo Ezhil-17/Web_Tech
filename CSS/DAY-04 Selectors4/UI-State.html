@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input:enabled {
+        background-color: aqua;
+      }
+      input:disabled {
+        background-color: gray;
+      }
+      input:checked {
+        /* background-color:purple; === it is not worked*/
+        accent-color: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>UI State Pseudo Class Selector</h1>
+    <input type="text" />
+    <input type="text" />
+    <hr />
+    <input type="text" value="123456" disabled /> <br />
+    <br />
+
+    <input type="checkbox" name="" id="" checked />Skills
+    <input type="radio" name="" id="" checked />Gender
+  </body>
+</html>

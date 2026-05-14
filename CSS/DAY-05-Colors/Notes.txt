@@ -1,0 +1,69 @@
+# CSS Colors:
+-> CSS provides multiple ways to apply colors to elements.
+-> Used for:
+    1. Text color
+    2. Background color
+    3. Border color
+    4. Shadows
+    5. Gradients
+
+-> There are 6 ways to provide the colors in CSS:
+    1. By Using Color Name
+    2. By Using RGB — rgb()
+    3. By Using RGBA — rgba()
+    4. By Using Hexadecimal Values
+    5. By Using HSL — hsl()
+    6. By Using HSLA — hsla()
+
+1. By Using Color Name: CSS has predefined color names.
+    Example: red, blue, green, etc.
+
+2. By Using RGB — rgb(): 
+    RGB stands for:
+    R → Red
+    G → Green
+    B → Blue
+
+    Range: 0 - 255
+    Syntax: rgb(red, green, blue);
+    More Examples:
+    color: rgb(0, 0, 255);       /* Blue */
+    color: rgb(0, 255, 0);       /* Green */
+    color: rgb(255, 255, 0);     /* Yellow */
+    color: rgb(0, 0, 0);         /* Black */
+    color: rgb(255, 255, 255);   /* White */
+
+3. By Using RGBA — rgba():
+-> RGBA is same as RGB but adds:
+    A → Alpha (Transparency)
+    Range: 0 - 1
+    0 -> Fully transparent
+    1 -> Fully visible
+    0.5 -> 50% transparent
+
+    Syntax: rgba(red, green, blue, alpha);
+
+4. By Using Hexadecimal Values:
+-> Hexadecimal colors start with: #
+   Range: 0-9 and A-F or a-f
+   Example:
+   color: #0000ff;   /* Blue */
+   color: #00ff00;   /* Green */
+   color: #ffffff;   /* White */
+   color: #000000;   /* Black */
+
+   Short Hexadecimal:
+   #ffffff => #fff
+   #000000 => #000
+
+5. By Using HSL — hsl():
+-> HSL stands for:
+    H → Hue (deg) -> Represents color degree -> 0 to 360
+    S → Saturation (%) -> Represents intensity of color -> 0% to 100%
+    L → Lightness (%) -> Represents brightness -> 0% to 100%
+
+    Syntax: hsl(hue, saturation, lightness)
+
+6. By Using HSLA — hsla():
+-> HSLA is same as HSL but adds: Alpha → Transparency
+   Syntax: hsla(hue, saturation, lightness, alpha);

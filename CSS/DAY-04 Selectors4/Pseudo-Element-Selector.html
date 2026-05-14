@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #para::first-letter {
+        color: blue;
+        font-size: 50px;
+      }
+      #para::first-line {
+        background-color: hotpink;
+      }
+      #para::after {
+        content: "Content Added with the Help of CSS";
+        color: red;
+      }
+      #para::before {
+        content: "Content Added before the paragraph with the help of CSS";
+        color: blueviolet;
+      }
+      li {
+        color: green;
+      }
+      li::marker {
+        color: orangered;
+      }
+      #para2::selection {
+        color: orange;
+        background-color: aqua;
+      }
+      input {
+        caret-color: darkgreen;
+      }
+      input::placeholder {
+        font-size: 10px;
+        color: hotpink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Element Selector (::)</h1>
+    <p>PES is used to change the some part of HTML element.</p>
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+      Architecto, ipsum, ipsam, ut eum ab exercitationem explicabo deserunt
+      voluptates neque soluta maxime. Facilis, tenetur quam eum explicabo
+      dolorem itaque modi laudantium provident ad. Ipsum inventore tempora
+      facilis a quo et omnis.
+    </p>
+    <hr />
+
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
+
+    <p id="para2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum alias ex
+      quod? Fuga cumque, beatae voluptatum ad quam ea quisquam? Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. <br />
+      Architecto, ipsum, ipsam, ut eum ab exercitationem explicabo deserunt
+      voluptates neque soluta maxime. Facilis, tenetur quam eum explicabo
+      dolorem itaque modi laudantium provident ad. Ipsum inventore tempora
+      facilis a quo et omnis.
+    </p>
+    <hr />
+    <label for="">FirstName:</label>
+    <input type="text" placeholder="Enter Your FirstName here" />
+  </body>
+</html>
